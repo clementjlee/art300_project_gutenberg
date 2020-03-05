@@ -89,15 +89,3 @@ h2 + p::first-letter{
     font-family: 'Hepta Slab', serif, bold;
     color: maroon;
 }
-
-/*Tablet Styles*/
-@media screen and (max-width:768px){
-
-    .fig{
-        text-align: center;
-        width: 100%;
-        height: auto;
-        margin: 2vw;
-    }
-
-}
