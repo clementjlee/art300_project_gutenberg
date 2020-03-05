@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:700&display=swap');
+
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+pre{
+    display:none
+}
+
+.fig{
+    margin: auto;
+    margin-top: 2vh;
+    width: 40vw;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Karla';
+    font-size: 4vw;
+    font-family: 'Hepta Slab', serif, bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2{
+    color: navy;
+    font-family: 'Hepta Slab', serif, bold;
+    margin-left: 10vw;
+    border-bottom: 3px solid navy;
+}
+
+h1 + h2{
+    font-size: 2vw;
+    font-family: 'Karla';
+    font-style: italic;
+    margin-top: 30px;
+    color: grey;
+    text-align: center;
+    margin: auto;
+    border-bottom: none;
+
+}
+
+h4{
+    font-size: 1vw;
+    font-family: 'Karla';
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: none;
+}
+
+h5{
+    text-align: right;
+    font-family:'Hepta Slab', serif, bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+td{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+
+    margin-left: 3vw;
+}
+
+p{
+    color: black;
+    font-family: 'Karla';
+    line-height: 30px;
+
+    margin-left: 20vw;
+    margin-right: 10vw;
+}
+
+h2 + p::first-letter{
+    font-size: 40px;
+    font-family: 'Hepta Slab', serif, bold;
+    color: maroon;
+}
+
+/*Tablet Styles*/
+@media screen and (max-width:768px){
+
+    .fig{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 2vw;
+    }
+
+}
